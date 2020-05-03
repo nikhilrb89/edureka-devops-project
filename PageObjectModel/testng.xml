@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Edureka-Project" parallel="tests"
+	thread-count="8" preserve-order="false" configfailurepolicy="continue"
+	junit="false" skipfailedinvocationcounts="false"
+	data-provider-thread-count="10" group-by-instances="false"
+	allow-return-values="false">
+
+
+	<test thread-count="5" name="Test-chrome-Web"
+		skipfailedinvocationcounts="false" preserve-order="true"
+		group-by-instances="false" allow-return-values="false">
+		<classes>
+			
+			<class name="com.edureka.php.tests.PhpappTest" />
+			
+
+		</classes>
+	</test> 
+
+	
+	<!--  </test> -->
+</suite> <!-- Suite -->

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="8" configfailurepolicy="continue" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Edureka-Project]" parallel="tests">
+  <test thread-count="5" name="Test-chrome-Web">
+    <classes>
+      <class name="com.edureka.php.tests.PhpappTest"/>
+    </classes>
+  </test> <!-- Test-chrome-Web -->
+</suite> <!-- Failed suite [Edureka-Project] -->
