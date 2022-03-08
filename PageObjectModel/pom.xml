@@ -16,7 +16,7 @@
 		<testng.version>6.13.1</testng.version>
 		<extentreports.version>3.1.2</extentreports.version>
 		<cucumber-extentsreport.version>3.1.0</cucumber-extentsreport.version>
-		<apache.poi.version>3.14</apache.poi.version>
+		<apache.poi.version>5.2.1</apache.poi.version>
 		<commons-io.version>2.6</commons-io.version>
 		<log4j.version>1.2.17</log4j.version>
 		<browserstack.version>1.0.3</browserstack.version>
